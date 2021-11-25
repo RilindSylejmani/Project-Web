@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    border: 1px solid blue;
+    width: 94%;
+    height: 80px;
+    position: absolute;
+    top: 21px;
+    left: 30px;
+}
+
+.image {
+    position: absolute;
+    top: 39px;
+    left: 54px;
+}
+
+.search {
+    position: absolute;
+    top: 49px;
+    left: 244px;
+    
+}
+
+.line {
+    display: flex;
+    position: absolute;
+    top: 49px;
+    left: 500px;
+    list-style-type: none;
+}
+
+.line li {
+    border: 1px solid blue;
+    width: 70px;
+    height: 20px;
+    margin-left: 51px;
+    text-align: center;
+}
+
+.slideshow {
+    border: 1px solid blue;
+    width: 94%;
+    position: absolute;
+    left: 30px;
+    top: 148px;
+    height: 400px;
+    
+}
+
+.products {
+    border-bottom: 1px solid blue;
+    width: 300px;
+    position: absolute;
+    top: 16cm;
+    left: 74px;
+}
+
+.squares {
+    display: flex;
+}
+
+.square1 {
+    border: 1px solid blue;
+    width: 290px;
+    height: 302px;
+    margin: 690px 33px 28px;
+}
+
+.image1 {
+    margin-left: 27px;
+    margin-top: 14px;
+}
+
+.button1 {
+    margin-left: 52px;
+    margin-top: 22px;
+    width: 156px;
+    height: 46px;
+}
+
+.button2 {
+    margin-left: 52px;
+    margin-top: 22px;
+    width: 156px;
+    height: 46px;
+}
+
+.button3 {
+    margin-left: 52px;
+    margin-top: 22px;
+    width: 156px;
+    height: 46px;
+}
+
+.squares1 {
+    display: flex;
+    border: 1px solid blue;
+    width: 91%;
+    height: 309px;
+    margin-left: 30px;
+    padding-left: 30px;
+}
+
+
+
+.button4 {
+    margin-left: 52px;
+    margin-top: 22px;
+    width: 156px;
+    height: 46px;
+}
+.button5 {
+    margin-left: 52px;
+    margin-top: 22px;
+    width: 156px;
+    height: 46px;
+}
+.button6 {
+    margin-left: 52px;
+    margin-top: 22px;
+    width: 156px;
+    height: 46px;
+}
+
+.login {
+   padding-top: 64px;
+   margin-left: 351px;
+   
+}
+
+.email {
+    
+    margin-bottom: 30px;
+}
+
+.sign-in {
+    
+    padding-top: 27px;
+    margin-left: 436px;
+}
+
+.click {
+    width: 130px;
+    height: 40px;
+}
+
+.click:hover {
+    background-color: red;
+}
+
