@@ -4,7 +4,8 @@
 }
 
 .box{
-    border: 1px solid blue;
+    background-color: black;
+    border: 2px solid black;
     width: 94%;
     height: 80px;
     position: absolute;
@@ -28,21 +29,30 @@
 .line {
     display: flex;
     position: absolute;
-    top: 49px;
+    top: 32px;
     left: 500px;
     list-style-type: none;
 }
 
 .line li {
-    border: 1px solid blue;
+    border: 3px solid rgb(247, 139, 139);
+    color: white;
     width: 70px;
     height: 20px;
-    margin-left: 51px;
+    margin-left: 24px;
     text-align: center;
+    padding: 20px;
+    font-size: 23px;
+}
+
+.line li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
 }
 
 .slideshow {
-    border: 1px solid blue;
+    border: 3px solid rgb(247, 139, 139);
     width: 94%;
     position: absolute;
     left: 30px;
@@ -52,11 +62,13 @@
 }
 
 .products {
-    border-bottom: 1px solid blue;
-    width: 300px;
+    border-bottom: 3px solid black;
+    border-bottom-left-radius: 25px;
+    width: 230px;
     position: absolute;
     top: 16cm;
     left: 74px;
+    text-align: center;
 }
 
 .squares {
@@ -64,15 +76,26 @@
 }
 
 .square1 {
-    border: 1px solid blue;
-    width: 290px;
-    height: 302px;
+    border: 3px solid rgb(247, 139, 139);
+    border-radius: 20px;
+    width: 259px;
+    height: 309px;
     margin: 690px 33px 28px;
+}
+
+.square1:hover {
+   border-color: black;
+    border-radius: 0px;
 }
 
 .image1 {
     margin-left: 27px;
     margin-top: 14px;
+}
+
+.Technology{
+    text-align: center;
+    margin-top: 20px;
 }
 
 .button1 {
@@ -98,11 +121,13 @@
 
 .squares1 {
     display: flex;
-    border: 1px solid blue;
-    width: 91%;
+    border: 3px solid rgb(247, 139, 139);
+    border-radius: 20px;
+    width: 90%;
     height: 309px;
-    margin-left: 30px;
+    margin-left: 33px;
     padding-left: 30px;
+    margin-top: 40px;
 }
 
 
@@ -152,3 +177,49 @@
     background-color: red;
 }
 
+.ndarja {
+    display: flex;
+    list-style-type: none;
+    margin-left: -124px;
+}
+
+.ndarja li {
+    margin-left: 219px;
+    font-size: 30px;
+}
+
+.border {
+    border-bottom: 3px double black;
+    width: 93%;
+    margin-top: 5px;
+    margin-left: 34px;
+}
+
+.ndarja1 {
+    display: flex;
+    list-style-type: none;
+    margin-left: -92px;
+    padding-top: 28px;
+}
+
+.ndarja1 li {
+    font-size: 30px;
+    margin-left: 202px;
+}
+
+.border1 {
+    border-bottom: 3px double black;
+    width: 93%;
+    margin-top: 5px;
+    margin-left: 34px;
+}
+
+.square2:hover {
+    border: 3px solid rgb(247, 139, 139);
+    border-color: black;
+    border-radius: 20px;
+}
+
+.square2 {
+    margin-top: -1px;
+}
