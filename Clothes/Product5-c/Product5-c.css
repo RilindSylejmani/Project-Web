@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: black;
+    border: 2px solid black;
+    width: 94%;
+    height: 80px;
+    position: absolute;
+    top: 21px;
+    left: 30px;
+}
+
+.image {
+    position: absolute;
+    top: 39px;
+    left: 54px;
+}
+
+.search {
+    position: absolute;
+    top: 49px;
+    left: 244px;
+}
+
+.line {
+    display: flex;
+    position: absolute;
+    top: 32px;
+    left: 500px;
+    list-style-type: none;
+}
+
+.line li {
+    border: 3px solid rgb(247, 139, 139);
+    color: white;
+    width: 70px;
+    height: 20px;
+    margin-left: 24px;
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+}
+
+.line li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.img1 {
+    width: 250px;
+    height: 250px;
+    margin-left: 197px;
+}
+
+.first-border {
+    display: flex;
+    margin-top: 216px;
+}
+
+.second-border {
+    display: flex;
+    margin-top: 89px;
+    border-style: none solid solid solid;
+    width: 80%;
+    margin-left: 82px;
+    border-radius: 20px;
+    border-color: rgb(247, 139, 139);
+}
+
+.NameOfProduct {
+    margin-left: 133px;
+}
+
+.third-border {
+    display: flex;
+    margin-top: 17%;
+    margin-left: -232px;
+}
+
+.About {
+    margin-left: 602px;
+    border-top: 3px solid rgb(247, 139, 139);
+    border-radius: 20px;
+    width: 252px;
+    text-align: center;
+}
+
+.fourth-border {
+    display: flex;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.first-table {
+    margin-left: 258px;
+    margin-top: 40px;
+}
+
+.text {
+    padding-top: 24px;
+}
+
+.fifth-border {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.button {
+    width: 122px;
+    height: 64px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: rgb(247, 139, 139);
+    color: black;
+}

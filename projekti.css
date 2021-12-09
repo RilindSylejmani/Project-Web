@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.box{
+.box {
     background-color: black;
     border: 2px solid black;
     width: 94%;
@@ -23,7 +23,6 @@
     position: absolute;
     top: 49px;
     left: 244px;
-    
 }
 
 .line {
@@ -58,7 +57,6 @@
     left: 30px;
     top: 148px;
     height: 400px;
-    
 }
 
 .products {
@@ -84,7 +82,7 @@
 }
 
 .square1:hover {
-   border-color: black;
+    border-color: black;
     border-radius: 0px;
 }
 
@@ -93,7 +91,7 @@
     margin-top: 14px;
 }
 
-.Technology{
+.Technology {
     text-align: center;
     margin-top: 20px;
 }
@@ -130,20 +128,20 @@
     margin-top: 40px;
 }
 
-
-
 .button4 {
     margin-left: 52px;
     margin-top: 22px;
     width: 156px;
     height: 46px;
 }
+
 .button5 {
     margin-left: 52px;
     margin-top: 22px;
     width: 156px;
     height: 46px;
 }
+
 .button6 {
     margin-left: 52px;
     margin-top: 22px;
@@ -152,18 +150,15 @@
 }
 
 .login {
-   padding-top: 64px;
-   margin-left: 351px;
-   
+    padding-top: 64px;
+    margin-left: 351px;
 }
 
 .email {
-    
     margin-bottom: 30px;
 }
 
 .sign-in {
-    
     padding-top: 27px;
     margin-left: 436px;
 }
