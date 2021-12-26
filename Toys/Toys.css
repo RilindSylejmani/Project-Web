@@ -3,48 +3,54 @@
     padding: 0;
 }
 
-
-
-.box{
+.box {
     background-color: black;
     border: 1px solid (243, 235, 235);
-    
-    width: 94%;
+    width: 97%;
     height: 80px;
     position: absolute;
     top: 21px;
     left: 30px;
 }
 
-.image {
+.black-block {
+    border: 1px solid black;
+    background-color: black;
+    width: 142px;
+    height: 131px;
     position: absolute;
-    top: 39px;
-    left: 54px;
+    top: 0px;
+    left: 20px;
 }
 
-.search {
+.image {
     position: absolute;
-    top: 49px;
-    left: 244px;
-    
-    
+    top: 6px;
+    left: 32px;
+}
+
+.search1 {
+    width: 300px;
+    height: 38px;
+    position: absolute;
+    top: 45px;
+    left: 669px;
 }
 
 .line {
     display: flex;
     position: absolute;
     top: 32px;
-    left: 500px;
+    left: 1150px;
     list-style-type: none;
-    
 }
 
 .line li {
-    border: 1px solid rgb(247, 139, 139);
+    border: 3px solid rgb(247, 139, 139);
     color: white;
-    width: 70px;
+    width: 109px;
     height: 20px;
-    margin-left: 24px;
+    margin-left: 65px;
     text-align: center;
     padding: 20px;
     font-size: 23px;
@@ -62,7 +68,7 @@
     width: 144px;
     position: absolute;
     top: 144px;
-    left: 423px;
+    left: 860px;
     text-align: center;
     font-size: 26px;
 }
@@ -81,49 +87,45 @@
     font-size: 25px;
 }
 
-
 .left-bottom {
-    border-style: none none solid solid ;
+    border-style: none none solid solid;
     border-radius: 50px;
     border-color: rgb(247, 139, 139);
-    width: 90%;
+    width: 95%;
     height: 289px;
     position: absolute;
     top: 337px;
     left: 39px;
     padding-bottom: 36px;
-    
 }
 
 .small-border {
     border-radius: 50px;
     width: 290px;
     height: 302px;
-    margin-left: 30px;
-
+    margin-left: 217px;
 }
-.small-border:hover{
+
+.small-border:hover {
     border: 1px solid rgb(77, 7, 7);
-    
 }
 
 .big-border {
     display: flex;
     padding-left: 10px;
-   
 }
 
 .image1 {
-    padding-left: 27px;
+    padding-left: 45px;
     padding-top: 17px;
 }
 
-.image1:hover{
+.image1:hover {
     border: 1px solid re;
 }
 
 .button1 {
-    margin-left: 80px;
+    margin-left: 96px;
     margin-top: 24px;
     width: 100px;
     height: 40px;
@@ -144,7 +146,7 @@
 }
 
 .phone1 {
-    margin-left: 16px;
+    margin-left: 233px;
     font-size: 31px;
     width: 250px;
 }
@@ -152,12 +154,11 @@
 .technology-phone {
     display: flex;
     list-style-type: none;
-    margin-left: 154px;
+    margin-left: 143px;
 }
 
 .single-line {
     border-style: none none double none;
-    
     border-color: rgb(77, 7, 7);
     width: 100.5%;
     position: absolute;
@@ -165,9 +166,8 @@
     top: 392px;
 }
 
-
 .left-bottom1 {
-    border-style: none none solid solid ;
+    border-style: none none solid solid;
     border-radius: 50px;
     border-color: rgb(247, 139, 139);
     width: 100%;
@@ -176,7 +176,6 @@
     top: 555px;
     left: -4px;
     padding-bottom: 36px;
-    
 }
 
 .PC {
@@ -190,37 +189,31 @@
     left: -5px;
     font-size: 25px;
     border-color: rgb(247, 139, 139);
-
 }
-
-
 
 .small-border1 {
     border-radius: 50px;
     width: 290px;
     height: 302px;
-    margin-left: 30px;
-
+    margin-left: 217px;
 }
 
 .small-border1:hover {
     border: 1px solid rgb(77, 7, 7);
-   
 }
 
 .big-border1 {
     display: flex;
     padding-left: 10px;
-   
 }
 
 .image2 {
-    padding-left: 29px;
+    padding-left: 45px;
     padding-top: 17px;
 }
 
 .button2 {
-    margin-left: 80px;
+    margin-left: 96px;
     margin-top: 24px;
     width: 100px;
     height: 40px;
@@ -228,21 +221,16 @@
     color: white;
 }
 
-
-
-
-
 .technology-pc {
     display: flex;
     list-style-type: none;
-    margin-left: -72px;
+    margin-left: -71px;
     margin-top: 602px;
 }
 
 .pc1 {
-    
-    font-size:31px ;
-    margin-left:182px ;
+    font-size: 31px;
+    margin-left: 394px;
     text-align: center;
 }
 
@@ -254,5 +242,53 @@
 
 .button2:hover {
     background-color: white;
+    color: black;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar :hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 0px;
+    margin-left: -57px;
+}
+
+.menu-bar {
+    position: absolute;
+    top: 30px;
+    left: 302px;
+    color: white;
+    border: 3px solid rgb(247, 139, 139);
+    width: 109px;
+    height: 20px;
+    padding: 20px;
+    font-size: 23px;
+}
+
+.menu-bar ul li {
+    list-style-type: none;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    height: 24px;
+    color: White;
+    text-decoration-line: none;
+}
+
+.sub-menu-1 ul li:hover {
+    background-color: rgb(247, 139, 139);
     color: black;
 }

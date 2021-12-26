@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: black;
+    border: 2px solid black;
+    width: 97%;
+    height: 80px;
+    position: absolute;
+    top: 21px;
+    left: 30px;
+}
+
+.black-block {
+    border: 1px solid black;
+    background-color: black;
+    width: 142px;
+    height: 131px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.image {
+    position: absolute;
+    top: 6px;
+    left: 32px;
+}
+
+.search1 {
+    width: 300px;
+    height: 38px;
+    position: absolute;
+    top: 45px;
+    left: 669px;
+}
+
+.line {
+    display: flex;
+    position: absolute;
+    top: 32px;
+    left: 1150px;
+    list-style-type: none;
+}
+
+.line li {
+    border: 3px solid rgb(247, 139, 139);
+    color: white;
+    width: 109px;
+    height: 20px;
+    margin-left: 65px;
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+}
+
+.line li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.emri {
+    margin-top: 313px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.text1 {
+    height: 55px;
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.text2 {
+    height: 55px;
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.text3 {
+    height: 55px;
+    width: 400px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.mbiemri {
+    margin-top: 67px;
+    text-align: center;
+}
+
+.mosha {
+    margin-top: 67px;
+    text-align: center;
+}
+
+.email {
+    margin-top: 67px;
+    text-align: center;
+}
+
+.pasword {
+    margin-top: 67px;
+    text-align: center;
+}
+
+.button {
+    margin-top: 73px;
+    text-align: center;
+}
+
+.button1 {
+    background-color: black;
+    color: white;
+    height: 48px;
+    width: 131px;
+    position: absolute;
+    left: 900px;
+    top: 934px;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar :hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 0px;
+    margin-left: -57px;
+}
+
+.menu-bar {
+    position: absolute;
+    top: 30px;
+    left: 302px;
+    color: white;
+    border: 3px solid rgb(247, 139, 139);
+    width: 109px;
+    height: 20px;
+    padding: 20px;
+    font-size: 23px;
+}
+
+.menu-bar ul li {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    height: 24px;
+    color: White;
+    text-decoration-line: none;
+}
+
+.sub-menu-1 ul li:hover {
+    background-color: rgb(247, 139, 139);
+    color: black;
+}

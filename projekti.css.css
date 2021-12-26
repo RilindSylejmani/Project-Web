@@ -1,0 +1,383 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: black;
+    border: 2px solid black;
+    width: 97%;
+    height: 80px;
+    position: absolute;
+    top: 21px;
+    left: 30px;
+}
+
+@media only screen and (max-width:300px) {}
+
+.small-border {
+    border: 1px solid black;
+    background-color: black;
+    width: 142px;
+    height: 131px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.image {
+    position: absolute;
+    top: 6px;
+    left: 32px;
+}
+
+.search {
+    position: absolute;
+    top: 45px;
+    /**left: 308px;*/
+    left: 669px;
+}
+
+.search1 {
+    /*width: 200px;*/
+    width: 300px;
+    height: 38px;
+}
+
+.line {
+    display: flex;
+    position: absolute;
+    top: 32px;
+    /**left: 500px;*/
+    left: 1150px;
+    list-style-type: none;
+}
+
+@media only screen and (max-width:600px) {
+    .header {
+        background-color: red;
+        width: 200px;
+    }
+}
+
+.line li {
+    border: 3px solid rgb(247, 139, 139);
+    color: white;
+    /**width: 80px;*/
+    width: 109px;
+    height: 20px;
+    /**margin-left: 24px;*/
+    margin-left: 65px;
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+}
+
+.line li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.slideshow {
+    border: 3px solid rgb(247, 139, 139);
+    width: 94%;
+    position: absolute;
+    left: 30px;
+    top: 183px;
+    height: 400px;
+}
+
+.products {
+    border-bottom: 3px solid black;
+    border-bottom-left-radius: 25px;
+    width: 230px;
+    position: absolute;
+    top: 16cm;
+    left: 74px;
+    text-align: center;
+}
+
+.squares {
+    display: flex;
+    /*margin-left: 0px;*/
+    margin-left: 60px;
+}
+
+.square1 {
+    border: 3px solid rgb(247, 139, 139);
+    border-radius: 20px;
+    width: 259px;
+    height: 309px;
+    /*margin: 690px 33px 28px;*/
+    margin: 690px 160px 28px;
+}
+
+.square1:hover {
+    border-color: black;
+    border-radius: 0px;
+}
+
+.image1 {
+    margin-left: 27px;
+    margin-top: 14px;
+}
+
+.Technology {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button1 {
+    margin-left: 52px;
+    margin-top: 22px;
+    width: 156px;
+    height: 46px;
+    background-color: black;
+    color: white;
+}
+
+.button2 {
+    margin-left: 52px;
+    margin-top: 22px;
+    width: 156px;
+    height: 46px;
+    background-color: black;
+    color: white;
+}
+
+.button3 {
+    margin-left: 52px;
+    margin-top: 22px;
+    width: 156px;
+    height: 46px;
+    background-color: black;
+    color: white;
+}
+
+.squares1 {
+    display: flex;
+    border: 3px solid rgb(247, 139, 139);
+    border-radius: 20px;
+    /*width: 90%;*/
+    width: 94.5%;
+    height: 309px;
+    margin-left: 33px;
+    padding-left: 30px;
+    margin-top: 40px;
+}
+
+.button4 {
+    margin-left: 52px;
+    margin-top: 22px;
+    width: 156px;
+    height: 46px;
+    background-color: black;
+    color: white;
+}
+
+.button5 {
+    margin-left: 52px;
+    margin-top: 22px;
+    width: 156px;
+    height: 46px;
+    background-color: black;
+    color: white;
+}
+
+.button6 {
+    margin-left: 52px;
+    margin-top: 22px;
+    width: 156px;
+    height: 46px;
+    background-color: black;
+    color: white;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+}
+
+.button2:hover {
+    background-color: white;
+    color: black;
+}
+
+.button3:hover {
+    background-color: white;
+    color: black;
+}
+
+.button4:hover {
+    background-color: white;
+    color: black;
+}
+
+.button5:hover {
+    background-color: white;
+    color: black;
+}
+
+.button6:hover {
+    background-color: white;
+    color: black;
+}
+
+
+}
+.login {
+    padding-top: 64px;
+    margin-left: 351px;
+}
+.email {
+    margin-bottom: 30px;
+}
+.sign-in {
+    padding-top: 27px;
+    margin-left: 436px;
+}
+.click {
+    width: 130px;
+    height: 40px;
+}
+.click:hover {
+    background-color: red;
+}
+.ndarja {
+    display: flex;
+    list-style-type: none;
+    margin-left: -191px;
+}
+.ndarja li {
+    margin-left: 458px;
+    font-size: 30px;
+}
+.border {
+    border-bottom: 3px double black;
+    width: 95%;
+    margin-top: 5px;
+    margin-left: 42px;
+}
+.ndarja1 {
+    display: flex;
+    list-style-type: none;
+    margin-left: -230px;
+    padding-top: 28px;
+}
+.ndarja1 li {
+    font-size: 30px;
+    margin-left: 480px;
+}
+.border1 {
+    border-bottom: 3px double black;
+    width: 93%;
+    margin-top: 5px;
+    margin-left: 34px;
+}
+.square2:hover {
+    border: 3px solid rgb(247, 139, 139);
+    border-color: black;
+    border-radius: 20px;
+}
+.square2 {
+    margin-top: 9px;
+    padding-left: 150px;
+    margin-right: 15px;
+}
+.sub-menu-1 {
+    display: none;
+}
+.menu-bar :hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 0px;
+    margin-left: -57px;
+}
+.menu-bar {
+    position: absolute;
+    top: 30px;
+    /*left: 174px;*/
+    
+    left: 302px;
+    color: white;
+    border: 3px solid rgb(247, 139, 139);
+    /*width: 70px;*/
+    
+    width: 109px;
+    height: 20px;
+    padding: 20px;
+    font-size: 23px;
+    text-align: center;
+}
+.menu-bar ul li {
+    list-style-type: none;
+    /*margin-left: -15px;*/
+    
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    height: 24px;
+    color: White;
+    text-decoration-line: none;
+}
+.sub-menu-1 ul li:hover {
+    background-color: rgb(247, 139, 139);
+    color: black;
+}
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+.mySlides {
+    display: none
+}
+.Photo {
+    vertical-align: middle;
+    height: 400px;
+    width: 100%;
+}
+.slideshow-container {
+    position: absolute;
+    /*width: 94%;*/
+    
+    width: 73%;
+    height: 382px;
+    /*left: 32px;*/
+    
+    left: 253px;
+    top: 166px;
+}
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+    background-color: white;
+    color: black;
+}

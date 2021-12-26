@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: black;
+    border: 1px solid (243, 235, 235);
+    width: 97%;
+    height: 80px;
+    position: absolute;
+    top: 21px;
+    left: 30px;
+}
+
+.About-us {
+    position: absolute;
+    top: 177px;
+    left: 790px;
+    font-size: 20px;
+}
+
+.black-block {
+    border: 1px solid black;
+    background-color: black;
+    width: 142px;
+    height: 131px;
+    position: absolute;
+    top: 0px;
+    left: 20px;
+}
+
+.image {
+    position: absolute;
+    top: 6px;
+    left: 32px;
+}
+
+.search1 {
+    width: 300px;
+    height: 38px;
+    position: absolute;
+    top: 45px;
+    left: 669px;
+}
+
+.line {
+    display: flex;
+    position: absolute;
+    top: 32px;
+    left: 1150px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.line li {
+    border: 3px solid rgb(247, 139, 139);
+    color: white;
+    width: 109px;
+    height: 20px;
+    margin-left: 65px;
+    text-align: center;
+    padding: 20px;
+    font-size: 23px;
+}
+
+.line li:hover {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.sub-menu-1 {
+    display: none;
+}
+
+.menu-bar :hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background: black;
+    margin-top: 0px;
+    margin-left: -57px;
+}
+
+.menu-bar {
+    position: absolute;
+    top: 30px;
+    left: 302px;
+    color: white;
+    border: 3px solid rgb(247, 139, 139);
+    width: 109px;
+    height: 20px;
+    padding: 20px;
+    font-size: 23px;
+}
+
+.menu-bar ul li {
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    height: 24px;
+    color: White;
+    text-decoration-line: none;
+}
+
+.sub-menu-1 ul li:hover {
+    background-color: rgb(247, 139, 139);
+    color: black;
+}
+
+.info {
+    position: absolute;
+    top: 280px;
+    left: -36px;
+}
+
+.info ul {
+    display: flex;
+    margin: 5px;
+}
+
+.info ul li {
+    margin-left: 438px;
+    font-size: 23px;
+    border-bottom: 3px solid rgb(247, 139, 139);
+}
+
+.info1 {
+    position: absolute;
+    top: 350px;
+    left: -117px;
+}
+
+.info1 ul {
+    display: flex;
+    margin: 5px;
+}
+
+.info1 ul li {
+    margin-left: 519px;
+    font-size: 23px;
+    border-bottom: 3px solid rgb(247, 139, 139);
+}
+
+.big-border {
+    border: 4px solid rgb(247, 139, 139);
+    width: 90%;
+    height: 45%;
+    position: absolute;
+    top: 447px;
+    left: 94px;
+}
+
+.text h1 {
+    text-align: center;
+    margin: 30px;
+    font-family: 'Nanum Myeongjo', serif;
+}

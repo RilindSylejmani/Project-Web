@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BeepOnlineShop</title>
+    <link rel="stylesheet" type="text/css" href="projekti.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="small-border"></div>
+        <div class="background">
+            <!---->
+            <div class="box"></div>
+
+            <!---->
+            <div class="image">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAn1BMVEX////lK1JYWVtUVVfkFkbzqLXlKFDlJU7sbYT8/PzyorD2wstPUFJRUlRMTU/09PRoaWrkEELoR2f62+L+8vXmOVttbnBdXV9ISUuEhYaurq/Pz8+ztLTw8PDBwcLjEET509v86e3wlqWZmpvZ2dno6OjLy8zqYHnpWHP2vsjwkqLuhpjsdYt+f4CNjo+lpabqXHb0s772wcr74+jtgJONvWuqAAAGJElEQVR4nO2a7XaqPBCFlUQpFYJYRfwAbAWrbdHT03P/1/ZmEr5sdfkuW2rt2k9/lAwYZzOTSQK2WgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOA3crfpdHrDS3vRHItBLPHM59+q8dkz+Wg9MDnvLi7tSyM8e3xNGXr/YJr87dLeNEDP4//yw7u2ObioL80wMv+Ux704fr2gK82w8Piiaj3yx4t50hSdeGRVrY03+nX19IH/qbUWXvf+Yq40xMNeXkLh1bF4WrfbXV5htrujm86vEblZe1LSe7pybfNyd2nfvoLhTfxRXo7JHy7t3ud5ax/VR8Q3l3bws9zzbpWXNUojv3KJ1sDM01H+H9XotjnPo7iXqJZ1rKsfypOWwQevz/zRGpb0vPbfJ1OrjxfV9W4WXszXs7jXGrwH69B8eL9W+msrcrdvuN/v5WfQIfQ6rSMz/qO6A14xZ4QGG1+XQmtEFcV8oeODCof6gqf88j4zrkzhm6eyUO3n9xXe5au2WwpyN98OW33j2hRuYhKolG1ktP6WJ4aPpvlCVfNNpampd1JXqLDDixx8i7tyXVo+nLmRJ2Ky6zzOT1yrQn7byrNRVRxi2Ja6uiM6HHSrUnPVCl9pRHqb3K4KjLmmw8MKj8z7B60XXSNUCocDbvJB+eDi1jNNrfeAwnS+zfxsudr3vLDuxzjZTXx/skv2vzedbrNsO31nbYJKYWv4vH6qPZnZPN701MEHhenWtpnEEeOout5dOsJRVmNaWZNMGZkt/FllTSeOTWbb9hvXWFN4jPcKDcMxCsSkCGNSt/pFGKcBK4ws2BU9RuKQtSHOUig12saY2dJPO9MSE1Fa6aCvJe4C2bCd8dgh+cFSdxgF6lomz5C1YYnnKbSXieumkS/VCOW2pUK3TUI3XBml2zMphRnTVF67VGJUStLNYM4yCcNkJ08bIjr61RdT6OSDx1qK3O0dadUDbUmRVclLFzNf7URC+pyYqw/5TK5t8x5S2Wh4+jlHYVBVh0x6O5FVhqwrZdmKMnUjUXgfUqwCJbA1oxCmRQfuuFDeFGcodJbVuVDGznZJCwltFQL1yQnLMzBVyZjr2DqGXSu2UjDzv0rNIc5QKOoFfsuoLUeZUCGktLW1VtpJ6hCm45pAlbr1PfRY3aPmOCdL6/7MbcOOKFo2JZ4WmE8gIdPR2RPYcmWjX+9efjZIW81xhsK9wiDzUyqk4RjqFHVoDCaT7SRyHYNl9TE4ldaQFO5lpYz/T1LY8tl+jskiKvOTcjXVAn2K4DxgwZzKj18vMr7DAqVwXO8+M36WQtKyqp30lX87qh5LJVBZKfMSOsdWVYq6NNGrLLVrI9mSEyVrcmV+WqHaR7V5/gIj2i99M+W1nsRZnqKyKa2BRfmnlnL5GJS3gW2VQvmvZGoXZbghTitc6KdteYtuuSjXWSGtb6illzpOpoYoFVFHikhsvUrVAle2mklJIQ3dnISVM2lDnFb4Qk8x9E6RmApanum0mqkUJFUriiXT82DSJ69psE4ogrYWKGMl74CupUY5I0YU0Uanw9MKe7F6XtwpDRnlnthG0dQPaksZFa9sHu20VQXJpSpjjJdRtGSUx0ZYKDSEsVutpmO1Bm+yzpxWuNDvL3i1cXRpvW0wIexaCsp40eZCbgPVHqrI45QGp7wfysoYFRilMLeqjuzZhy/9UrTCzpGzVsfUAp9qRndbbvpsoxxQ1k4UG0SbldY0K68NfBUrNeNnQbmV7De9BdbP2v71DvH6PNKvpbrt/V9lzLIgELYI2K4++SdbEQgRBMauPmFGfqCsfqTHrp7xoz71EATjeeOPcDq6UnLO4/yvOuBm/oYt7r3/WDiL5tGHu28lUbT6YE1nUTQrRRdrmnQ1n6+aHYGaDj/+arR4p/ilP476sGprmtMKzXhzupv/z49TaHrrr/2pwvcr9Mzj8NhbfxiCn+TbFW4eb47y8rT5+p/TfLvCb8cV7JcrbK364pcrlKuf8emLrpwr+zEHAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJr/ALQBcZm6wt4kAAAAAElFTkSuQmCC"
+                    width="120px" height="120px">
+            </div>
+            <!---->
+            <div class="search">
+                <input class="search1" type="search" placeholder="Search">
+            </div>
+            <!---->
+            <div class="header">
+                <ul class="line">
+                    <li class="line1">Home</li>
+                    <a href="Projekti.html"></a>
+                    <a href="About/About.html">
+                        <li class="line2">About</li>
+                    </a>
+                    <a href="Projekti.html"></a>
+                    <a href="SignIn/SignIn.html">
+                        <li class="line3">Sign in</li>
+                    </a>
+                </ul>
+            </div>
+
+
+
+
+            <!---->
+
+            <div class="slideshow-container">
+
+                <a href="Projekti.html"></a>
+                <a href="Clothes/Clothes.html">
+                    <div class="mySlides fade">
+
+                        <img class="Photo" src="https://339621-1046748-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/IS_Website_Cat_Banners_0421_FA_01_03_Desktop.jpg" style=" width:100% ">
+
+                    </div>
+                </a>
+
+                <a href="Projekti.html"></a>
+                <a href="Clothes/Clothes.html">
+                    <div class="mySlides fade">
+
+                        <img class="Photo" src="https://339621-1046748-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/IS_Website_Cat_Banners_0421_FA_01_12_Desktop.jpg" style=" width:100% ">
+
+                    </div>
+                </a>
+
+                <a href="Projekti.html "></a>
+                <a href="Toys/Toys.html ">
+                    <div class="mySlides fade ">
+
+                        <img class="Photo " src="https://339621-1046748-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/IS_Website_Cat_Banners_0421_FA_01_18_Desktop.jpg" style="
+                            width:100% ">
+
+                    </div>
+                </a>
+
+                <a href="Projekti.html "></a>
+                <a href="Sportstech/Sportstech.html">
+                    <div class="mySlides fade ">
+
+                        <img class="Photo " src="https://339621-1046748-raikfcquaxqncofqfm.stackpathdns.com/wp-content/uploads/IS_Website_Cat_Banners_0421_FA_01_23_Desktop.jpg" style="
+                            width:100% ">
+
+                    </div>
+                </a>
+
+                <a class="prev " onclick="plusSlides(-1) ">&#10094;</a>
+                <a class="next " onclick="plusSlides(1) ">&#10095;</a>
+
+            </div>
+            <!---->
+            <div class="products ">
+                <h1>Products</h1>
+            </div>
+            <!---->
+            <div class="squares ">
+                <a href="Projekti.html "></a>
+                <a href="Technology/Technology.html ">
+                    <div class="square1 ">
+                        <img class="image1 " src="https://ae01.alicdn.com/kf/H03785188f9c747968adcc6b7cafa9263Y/Xundd-Tablet-Stands-For-iPad-Pro-Case-Adjustable-Foldable-Height-Angle-Phone-Holder-For-Xiaomi-iPhone.jpg_220x220xz.jpg_.webp " width="200px
+                            " height="200px ">
+                        <button class="button1 ">Click here!</button>
+                    </div>
+                </a>
+
+
+                <a href="Projekti.html "></a>
+                <a href="Clothes/Clothes.html ">
+                    <div class="square1 ">
+                        <img class="image1 " src="https://ae01.alicdn.com/kf/H40f74a1959e849b797596c48f93999f9c/Fashion-business-trend-men-s-suits-gentlemen-s-youth-fashion-suits--.jpg_220x220xz.jpg_.webp " width="200px " height="200px ">
+                        <button class="button2 ">Click here!</button>
+                    </div>
+                </a>
+
+                <a href="Projekti.html "></a>
+                <a href="Accessoire/Accessoire.html ">
+                    <div class="square1 ">
+                        <img class="image1 " src="https://ae01.alicdn.com/kf/H0df5cab592104e1a91dd70be2d7a0ad3D/Boho-Gold-Floral-Bridal-Hair-Vine-Women-Headband-Pearls-Jewelry-Handmade-Leaf-Wedding-Headpiece-Accesories.jpg_220x220xz.jpg_.webp " width="200px
+                            " height="200px ">
+                        <button class="button3 ">Click here!</button>
+                    </div>
+                </a>
+            </div>
+
+
+            <ul class="ndarja ">
+                <li>Technology</li>
+                <li>Clothes</li>
+                <li> Accessory</li>
+            </ul>
+
+        </div>
+
+        <div class="border "></div>
+
+        <div class="squares1 ">
+            <a href="Projekti.html "></a>
+            <a href="Pet supplies/Pet-supplies.html ">
+                <div class="square2 ">
+                    <img class="image1 " src="https://ae01.alicdn.com/kf/H0221e4ff1da64b269d06e26bc44290dbP/Dog-Paw-Cleaner-Cup-Soft-Silicone-Combs-Portable-Outdoor-Pet-towel-Foot-Washer-Paw-Clean-Brush.jpg_220x220xz.jpg_.webp " width="200px " height="200px ">
+                    <button class="button4 ">Click here!</button>
+                </div>
+            </a>
+            <div class="middle-box ">
+            </div>
+
+            <a href="Projekti.html "></a>
+            <a href="Sportstech/Sportstech.html ">
+                <div class="square2 ">
+                    <img class="image1 " src="https://ae01.alicdn.com/kf/H9f0738a91d0a4e28b85bc1c0168d4563r/Sports-Entertainment-Vibration-Belt-Machine-Ab-Trainer-EMS-Abdominal-Muscle-Stimulator-Toner-Fitness-Training-Gear-Home.jpg_220x220xz.jpg_.webp
+                            " width="200px " height="200px ">
+                    <button class="button5 ">Click here!</button>
+                </div>
+            </a>
+
+            <a href="Projekti.html "></a>
+            <a href="Toys/Toys.html ">
+                <div class="square2 ">
+                    <img class="image1 " src="https://ae01.alicdn.com/kf/H48dd5f3e99e54059b23d4f93ec1fe21af/Woodland-Animals-Craft-Kit-Forest-Creatures-DIY-Sewing-Felt-Plush-Animals-For-Kids-Beginners-Educational-Sewing.jpg_220x220xz.jpg_.webp " width="200px
+                            " height="200px ">
+                    <button class="button6 ">Click here!</button>
+                </div>
+            </a>
+
+        </div>
+
+
+        <ul class="ndarja1 ">
+            <li>Pet Supplies</li>
+            <li>Fitness</li>
+            <li>Toys</li>
+        </ul>
+
+        <div class="border1 "></div>
+
+        <!--div class="login ">
+        <div class="email ">
+            <input type="email " placeholder="Email " style="width: 300px; height: 50px; ">
+        </div>
+        <div class="password ">
+            <input type="password " placeholder="Password " style="width: 300px; height: 50px; ">
+        </div>
+
+    </div>
+
+    <div class="sign-in ">
+        <button class="click ">Sign In</button>
+    </div>
+    </div-->
+
+        <div class="menu-bar ">
+            <ul>
+                <li>Products
+                    <div class="sub-menu-1 ">
+                        <ul>
+                            <a href="Projekti.html "></a>
+                            <a href="Technology/Technology.html ">
+                                <li class="line4 ">Technology</li>
+                            </a>
+
+                            <a href="Projetki.html "></a>
+                            <a href="Clothes/Clothes.html ">
+                                <li>lothes</li>
+                            </a>
+
+                            <a href="Projekti.html "></a>
+                            <a href="Accessoire/Accessoire.html ">
+                                <li>Accessory</li>
+                            </a>
+
+                            <a href="Projekti.html "></a>
+                            <a href="Pet supplies/Pet-supplies.html ">
+                                <li>Pet Supplies</li>
+                            </a>
+
+                            <a href="Projekti.html "></a>
+                            <a href="Sportstech/Sportstech.html ">
+                                <li>Fitness</li>
+                            </a>
+
+                            <a href="Projekti.html "></a>
+                            <a href="Toys/Toys.html ">
+                                <li>Toys</li>
+                            </a>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <script src="Projekti.js "></script>
+    </div>
+</body>
+
+</html>
